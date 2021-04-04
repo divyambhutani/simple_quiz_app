@@ -29,6 +29,15 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     var questionList = [
       {
+        'questionText': 'What\'s your favorite color?',
+        'answers': [
+          {'text': 'Black', 'score': 10},
+          {'text': 'Red', 'score': 5},
+          {'text': 'Green', 'score': 3},
+          {'text': 'White', 'score': 1},
+        ],
+      },
+      {
         'questionText': 'What is your favorite animal?',
         'answer': [
           {'text': 'Lion', 'score': 5},
